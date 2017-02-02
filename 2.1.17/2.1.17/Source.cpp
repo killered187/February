@@ -2,10 +2,12 @@
 using namespace std;
 int main() {
 	char input;
-		cout << "Do you like the Broncos?" << endl;
+		cout << "What song do you want played?" << endl;
 	cin >> input;
-	if (input == 'y')
-		cout << "Have a gold star!" << endl;
-	else if (input == 'n')
-		cout << "Change your life thoughts around!" << endl;
+	if (input == '1')
+		cout << "Hotline Bling!" << endl;
+	else if (input == '2')
+		cout << "Make It Bun Dem!" << endl;
+	else if (input =='3')
+		cout <<""
 }
