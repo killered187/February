@@ -66,15 +66,15 @@ int main(int argc, char **argv) {
 
 			//////////////////////////////////////////////////////////////////////////////////////////////
 			//here's the parametric equations that determine the shape!!
-			bouncer_x = 250 + 100 * (.80*cos(t) - (.80*cos((2 * t) / .90)));
-			bouncer_y = 250 + 100 * (.80*sin(t) - (.80*sin((2 * t) / .90)));
-			bouncer_y = 400 + (15 * (9 * cos(t) - 4 * cos(7 * t) - 4 * cos(4 * t) - cos(3 * t)))*-2;
-			bouncer_y = 250 + (10 * (13 * cos(t) - 5 * cos(2 * t) - 2 * cos(3 * t) - cos(4 * t)))*-1;
-			bouncer_y = 250 + 45 * (1.6*sin(t) - (1.2*sin((1.6*t) / .6)));
-			bouncer_x = 250 + 45 * (1.6*cos(t) - (.6*cos((1.6*t) / .6)));
-			bouncer_x = 250 + 10 * (16 * (sin(t)*(sin(t))*(sin(t))));
-			bouncer_y = 250 + 30 * (2 * sin(t) - sin(2 * t));
-			bouncer_y = 250 + 5 * (21 * sin(t) - 25 * sin(3.1*t));
+			bouncer_x = 250 + 100 * (1*cos(t) + (1*cos((5 * t) / 10)));
+			bouncer_y = 250 + 100 * (80*sin(t) + (10*sin((6 * t) / 15)));
+			bouncer_y = 400 + (5 * (10 * cos(t) + 10 * cos(70 * t) - 6 * cos(4 * t) + cos(15 * t)))*5;
+			
+			bouncer_y = 250 + 45 * (80*sin(t) + (1.2*sin((3*t) / 2)));
+			bouncer_x = 250 + 45 * (10 * cos(t) + (.90*cos((3*t) / 10)));
+			
+			bouncer_y = 250 + 20 * (3 * sin(t) + sin(20 * t));
+			
 			/////////////////////////////////////////////////////////////////////////////////////////////////////
 			redraw = true;
 		}
