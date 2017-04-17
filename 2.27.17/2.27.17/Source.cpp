@@ -2,11 +2,27 @@
 #include <iostream>
 using namespace std;
 int main() {
-	for (int i = 0; i < 10; i++)
-		
-	Beep(800+i*100, 200);
+	void Annoying();
 
-	for (int i = 10; i > 0; i--)
+	int main() {
+		Annoying();
+	}
 
-		Beep(800 + i * 100, 200);
+	void Annoying() {
+		Beep(400, 1000);
+		system("Color C");
+		for (int i = 0; i <= 25; i++) {
+			cout << "Sucks to suck" << endl;
+		}
+		MessageBox(0, "I HATE YOU", "BLEH", 0);
+		Beep(2000, 1000);
+		system("Color 4D");
+		for (int i = 0; i <= 25; i++) {
+			cout << "Your stupid!" << endl;
+		}
+
+		system("Color 2B");
+
+		Beep(30000, 4000);
+	}
 }
